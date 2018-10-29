@@ -28,3 +28,29 @@ Strong identifiers in the dataset:
 * Store type
 *Store establishment year
 *Prices
+
+
+Step 1: 
+
+I want to find what drives the sales amount for a certain product in different stores and try to predict where and how I can maximize the sales for this particular product. 
+The task is to predict the sales of a certain product at a particular store, part of a chain of stores and find out what influences that sale. We will evaluate the model for the predictive accuracy using Root Mean Square Error.
+Assumptions:
+-	we are using only grocery type products, with few features; this is a small model
+-	the category of the product might have an impact on sales (like dairy sells more than canned food beacause is used more often) 
+-	the type of store and it’s location is important for sales
+-	the size of the store might be important (people go to big stores to shop all they need at once)
+
+Step 2: 
+I’m building this model to provide a good insight in what drives the sales for a grocery product.
+This is an easily scalable model to provide detailed info and accurate predictions for sales volume for different type of products as there is a lot of data out there.
+This solution can be used for projects, start-ups and sales forecast.
+
+Step 3: 
+
+I would find the sales data for a product as detailed as possible (with as many features as possible). Select all the features with no NaN or missing data. Select the obviously important features for the model. All the other put them aside as we will be experimenting with them. Visualize the data (read through it and build some scatter, history plots for linearity and dimensionality and box plots for outliers).
+
+
+Data clean up:
+1. Replaced the Nans, identified outliers, feature selection and normalization - for both train and test data.
+
+
